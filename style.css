@@ -21,7 +21,8 @@ body {
 }
 
 header {
-    background-color: var(--vert-foret);
+    background: linear-gradient(rgba(45, 90, 39, 0.82), rgba(45, 90, 39, 0.88)),
+                url('https://images.unsplash.com/photo-1500937359346-b8b263a70d63?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
@@ -61,8 +62,8 @@ nav a.active {
 
 .hero {
     height: 62vh;
-    background: linear-gradient(rgba(34, 38, 32, 0.55), rgba(34, 38, 32, 0.72)),
-                url('https://images.unsplash.com/photo-1500937359346-b8b263a70d63?auto=format&fit=crop&w=1600&q=80') center/cover;
+    background: linear-gradient(rgba(34, 38, 32, 0.45), rgba(34, 38, 32, 0.62)),
+                url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
